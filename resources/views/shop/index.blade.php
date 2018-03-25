@@ -8,7 +8,7 @@ Laravel Shopping Cart
             @foreach($productChunk as $product)
                 <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
-                        <img src="{{ $product->imagePath }}" alt="Book being sold" class="img-responsive">
+                        <img src="{{ $product->imagePath }}" alt="Cover of book being sold" class="img-responsive">
                         <div class="caption">
                             <h3>{{ $product->title }}</h3>
                             <p class="description">{{ $product->description }}</p>
